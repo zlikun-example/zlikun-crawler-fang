@@ -138,7 +138,7 @@ public class CityTest {
          */
         public Province addCity(City city) {
             if(city == null || city.getName() == null) return this;
-            if (cities == null) cities = new HashSet<City>() ;
+            if (cities == null) cities = new HashSet<>() ;
             cities.add(city) ;
             return this ;
         }

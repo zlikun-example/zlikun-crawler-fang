@@ -1,2 +1,6 @@
 server:
   port: 80
+spring:
+  redis:
+    host: 192.168.100.221
+    port: 6379
